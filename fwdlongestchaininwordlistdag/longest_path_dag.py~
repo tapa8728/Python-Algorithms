@@ -49,12 +49,14 @@ for vx in G.keys():
 
 
 def previsit1(v):
+	
 	global time
 	time = time + 1
 	starttime[v] = time
 
 
 def postvisit1(v):
+	
 	global time
 	time = time + 1
 	endtime[v] = time
